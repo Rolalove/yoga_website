@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+*{
+      margin: 0;
+      padding: 0;
+      font-family: 'Poppins', sans-serif;
+}
+button{
+      cursor: pointer;
+}
+.top{
+      display: flex;
+      width: 100%;
+      height: 9vh;
+} 
+.brandlogo {
+      display: inline-flex;
+}
+.brandlogo p{
+      font-size: 50px;
+      margin-left: 30px;
+      color: #023e8a;
+}
+.contactdetails{
+      display: inline-flex;
+}
+.contactdetails p{
+      font-size: 20px;
+      margin-left: 100px;
+      font-weight: 300;
+      padding: 20px; 
+}
+.contactdetails button{
+      padding: 10px;
+      margin-left: 200px;
+      background-color: #0077b6;
+      color: white;
+      width: 120px;
+      height: 50px;
+      margin-top: 15px;
+}
+.hero{
+      background-image: url(./images/hero-1.jpg);
+      height: 100vh;
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      align-items: center;
+}
+
+.hero .hero-text{
+      color: white;
+      margin-left: 30px;
+}
+.hero .hero-text h3{
+      text-align: left;
+      font-size: 20px;
+      text-transform: uppercase;
+      padding-bottom: 20px;
+}
+.hero .hero-text h1{
+      font-size: 50px;
+      padding-bottom: 20px;
+      font-weight: 700;
+}
+.hero .hero-text button{
+      background-color: #5768ad;
+      color: #fff;
+      border: none;
+      text-transform: uppercase;
+      padding: 15px 35px;
+      font-size: 15px;
+}
+.welcome_message{
+      height: 100vh;
+      margin-top: 60px;
+      display: flex;
+}
+.image1{
+      flex-basis: 23%;
+      margin-left: 30px;
+      
+
+}
+.image2in1{
+      width: 23%;
+
+     
+}
+.image3{
+      margin-top: 15px;
+}
+.welcome_text{
+      width: 45%;
+      /* margin-left: 100px; */
+      /* margin-left: 16000px; */
+      
+}
+.brandlogo_1{
+      margin-left: 100px;
+      margin-top: 20px;
+}
+.welcome_title{
+      margin-left: 100px;
+      margin-top: 10px;
+      font-size: 50px;
+      font-weight: 400;
+      color: #212529;
+}
+.welcome_intro{
+      margin-left: 80px;
+      margin-top: 20px;
+      font-size: 21px;
+      color: #6c757d;
+}
+.welcome_intro button{
+      background-color: #3d5a80;
+      color: white;
+      padding: 20px 65px 20px 65px;
+      border: none;
+}
+.yoga{
+      width: 100%; 
+      height: 100vh;
+}
+.brandlogo_2{
+      display: flex;
+      justify-content: center;
+      align-content: center;
+}
+.yoga_sec{
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      font-size: 50px;
+}
+.yoga_types{
+      display: flex;
+      flex-direction: row;
+      margin-top: 20px;
+}
+.yoga{
+      padding: 25px;
+     margin: 40px;
+     width: 15%;
+     height: 40vh;
+     box-shadow: 10px 10px 50px  #e4e6e9;
+}
+.yoga p{
+      font-size: 17px;
+      
+}
+
+
+/**/
+@media screen and (max-width: 1024px){
+      .hero .hero-text{
+            width: 70%;
+      }
+}
+@media screen and (max-width: 900px) {
+
+}
+@media screen and (max-width: 700px) {
+      .hero .hero-text{
+            width: 90%;
+      }
+      .hero .hero-text h1{
+            font-size: 40px;
+      }
+
+}
+@media screen and (max-width: 500px) {
+
+      .hero .hero-text{
+            margin-left: 0;
+            padding: 20px;
+      }
+      .hero .hero-text h1{
+            font-size: 30px;
+      }
+      .hero .hero-text h3{
+            font-size: 16px;
+      }
+
+
+}
